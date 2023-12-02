@@ -38,6 +38,32 @@ nav>ul>li>ul{
     list-style-type: none;
     
 }
+div{
+    display: flex;
+}
+.slideshow{
+    list-style-type: none;
+    margin:auto;
+    display: block;
+}
+
+.slideshow p{
+    text-align: center;
+    color:darkgreen;
+    font-weight: bold;
+}
+
+.button{
+    font-family: monospace;
+    font-weight: bold;
+    font-size:100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slideshow a{
+    text-decoration: none;
+    display: inline;
+}
 
 .popup:hover>.dropdown{
     display: block;
@@ -63,9 +89,11 @@ nav>ul>li>a{
 
 footer{
     text-align: center;
-    margin: 10px 0px 0px 0px;
-    position: relative;
-    background-color: dimgrey;
-    padding: 20px 20px 50px 20px;
-    
+    padding: 20px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(165, 165, 165);
+       
 }
