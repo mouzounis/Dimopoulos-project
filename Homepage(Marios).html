@@ -6,6 +6,7 @@
     <body>
         <nav>
             <ul class="nav.list">
+                <li class="popup"><a href="Homepage(Marios).html">Homepage</a></li>
                 <li class="popup"><a href="Greece(Abraham)/Greek%20Homepage.html" class="nav">Greece</a>
                     <ul class="dropdown">
                         <li><a href="Greece(Abraham)/Greek%20AirForces.html">Airforce</a></li>
@@ -40,7 +41,7 @@
                         <li><a href="Spain(Ada)/Spain%20Special%20Forces.html">Special Forces</a></li>
                     </ul>
                 </li>
-                <li class="popup"><a href="NATO(Marios).html" class="nav">NATO</a></li>
+                <li class="popup"><a href="NATO(Marios)/NATO(Marios).html" class="nav">NATO</a></li>
             </ul>
             
         </nav>
@@ -107,6 +108,18 @@
 
                 var nextButton= document.getElementById("next");
                 nextButton.addEventListener("click", nextButtonAction);
+
+                var previousButtonAction = function(){
+                    slideshowItem[showItem].style.display="none";
+                    showItem--;
+                    if(showItem <= 0){
+                        showItem=4;
+                    }
+                    slideshowItem[showItem].style.display="block";
+                }
+
+                var previousButton= document.getElementById("previous");
+                previousButton.addEventListener("click", previousButtonAction);
 
             </script>
         </section>
