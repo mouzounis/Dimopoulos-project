@@ -2,22 +2,39 @@
 <html>
     <head>
         <title>Spain</title>
-      <link rel="stylesheet" type="text/css" href="../homepage.css">
-        <style>
-            .headText{
-            background-color: rgb(255, 255, 255);    
-            opacity: 3;
+     <link rel="stylesheet" type="text/css" href="../homepage.css"> 
+     <style>
+         footer>ul>li{
+
+             list-style-type: none;      
+             display: inline;
             }
-
-          section{
-            background-image: url("../Photos/Spain/francotirador.jpg");
+         section{
+            background-image: url("../Photos/Spain/francotirador.jpg");  
             background-repeat: no-repeat;   
-            width: 700px;
-            height: 450px; 
-            text-align: center;         
-          }
+            width:100%;
+            height:700px; 
+            text-align: center; 
+            top:auto;
+            position: relative;
+                   
+        }
+        #headText{
+            position: relative;
+            top:125px;
+            background-color: white blur(15px);    
+            backdrop-filter: blur(15px);
+            
+        }
+        footer{
+            position: relative;
+        }
+        .footImg{
+            width: 30px;
+            height: 30px;
+        }
 
-
+    
          </style>
     </head>
 
@@ -67,12 +84,17 @@
             <h1 id="headText">Spanish Army</h1> 
         </section>
 
-
         <article>
 
         </article>
         
-        <footer>
+        <footer> <p> You can contact us: 
+            <ul id="contactUs">
+
+            <li><a href=mailto:aurbina@york.citycollege.eu><img class="footImg" src="../Photos/Spain/mail.jpg"></a></li>
+            <li><a href="https://www.instagram.com/_adaa425/"> <img class="footImg" src="../Photos/Spain/Insta.jpg"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61552837576231"> <img class="footImg" src="../Photos/Spain/facebook.jpg"></a></li>
+        </ul> 
         </footer>
     </body>
 </html>
