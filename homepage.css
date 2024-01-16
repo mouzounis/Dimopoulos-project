@@ -38,9 +38,6 @@ nav>ul>li>ul{
     list-style-type: none;
     
 }
-div{
-    display: flex;
-}
 .slideshow{
     list-style-type: none;
     margin:auto;
