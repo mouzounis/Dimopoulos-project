@@ -19,6 +19,9 @@ function myTimer() {
     document.getElementById("timer").innerHTML = d.toLocaleTimeString();
 }
 
+
+
+
 // function revial() {
 //     var reveals = document.querySelectorAll(".reveal");
 //     for (var i = 0; i < reveals.length; i++) {
