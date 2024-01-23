@@ -1,0 +1,85 @@
+body {
+    font-family: "Euclid Circ.menuar A", "Poppins";
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #1a1625;
+    color: #908d96;
+  }
+
+ ::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 61, 139);
+    border-radius: 10px;
+} 
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+    margin-top: 150px;
+}
+
+h2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+section {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+}
+
+#timer {
+    color: darkgreen;
+    padding-right: 20px;
+    padding-left: 10px;
+    position: relative;
+    margin: 0px;
+}
+
+
+.slideshow {
+    list-style-type: none;
+    margin: auto;
+    display: block;
+}
+
+.slideshow p {
+    text-align: center;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.button {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 5;
+    padding: 0;
+    border: none;
+    background: none;
+
+}
+
+.slideshow a {
+    text-decoration: none;
+    display: inline;
+}
+
+
+
+
+
+
+
