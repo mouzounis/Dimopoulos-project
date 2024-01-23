@@ -186,7 +186,7 @@ body {
     animation: fadein 2s;
 }
 
-@keyframes fadenin {
+@keyframes fadein {
     from {
         opacity: 0;
     }
